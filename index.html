@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTA Data Analysis - Evidence-Based Transportation Policy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>MTA Data Analysis</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Our Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Evidence-Based Transportation Policy</h1>
+            <p class="hero-subtitle">Analyzing MTA performance through data-driven insights and machine learning</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>87.9%</h3>
+                    <p>ML Model Accuracy</p>
+                </div>
+                <div class="stat">
+                    <h3>17.4%</h3>
+                    <p>CUNY Route Coverage</p>
+                </div>
+                <div class="stat">
+                    <h3>+9.2%</h3>
+                    <p>ACE Route Improvement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2>Our Analysis</h2>
+            <p class="section-intro">
+                The graphs collectively tell a story of evidence-based policy implementation that worked, but wasn't scaled sufficiently. 
+                The transportation authority correctly identified struggling routes, deployed a targeted intervention that showed measurable 
+                results even after controlling for selection bias, and created a replicable model for future expansion.
+            </p>
+
+            <!-- Data Visualizations -->
+            <div class="visualizations-grid">
+                <div class="visualization-card">
+                    <div class="image-container">
+                        <img src="images/ml_performance_placeholder.png" alt="ML Models Performance Comparison" class="visualization-image">
+                    </div>
+                    <div class="image-caption">
+                        <h4>Machine Learning Models Performance Comparison</h4>
+                        <p>All four models (Linear Regression, Ridge Regression, Random Forest, and Gradient Boosting) show strong performance with R² scores above 0.82, indicating reliable predictive capability for route improvement potential.</p>
+                    </div>
+                </div>
+
+                <div class="visualization-card">
+                    <div class="image-container">
+                        <img src="images/linear_regression_placeholder.png" alt="Linear Regression Scatter Plot" class="visualization-image">
+                    </div>
+                    <div class="image-caption">
+                        <h4>Linear Regression Model Performance</h4>
+                        <p>With an R² of 0.850, our linear regression model explains 85% of the variance in predicted speed, demonstrating strong predictive capability for ACE candidate selection.</p>
+                    </div>
+                </div>
+
+                <div class="visualization-card">
+                    <div class="image-container">
+                        <img src="images/cuny_analysis_placeholder.png" alt="CUNY Route Analysis" class="visualization-image">
+                    </div>
+                    <div class="image-caption">
+                        <h4>CUNY Route Performance Analysis</h4>
+                        <p>Only 4 of 23 analyzed CUNY routes have ACE enforcement (17.4% coverage), revealing significant untapped potential for educational transportation improvements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Insights -->
+            <div class="insights-section">
+                <h3>Key Insights & Recommendations</h3>
+                
+                <div class="insight-category">
+                    <h4>Educational Transportation Priority</h4>
+                    <ul>
+                        <li>Expand ACE enforcement to more CUNY routes - only 17.4% currently have enforcement despite serving critical educational infrastructure</li>
+                        <li>Prioritize M9 (BMCC) for next ACE implementation - analysis predicts +0.7 mph improvement from current 6.4 mph baseline</li>
+                        <li>Target B11 (Brooklyn College) for ACE expansion - model forecasts +0.6 mph speed gain from 6.7 mph current speed</li>
+                        <li>Implement ACE on Q34 (Queens College) - predicted +0.5 mph improvement from existing 7.4 mph performance</li>
+                    </ul>
+                </div>
+
+                <div class="insight-category">
+                    <h4>Route Selection Strategy Optimization</h4>
+                    <ul>
+                        <li>Focus ACE deployment on routes below 8 mph baseline speed - clustering analysis shows 18.8% improvement potential for slowest routes</li>
+                        <li>Avoid ACE implementation on routes already above 12 mph - data shows these routes may experience performance decline (-0.38%)</li>
+                        <li>Prioritize express routes for ACE enforcement - selection analysis shows 20.2% importance weight for express service designation</li>
+                        <li>Target longer, more complex routes - route complexity shows 13.1% importance in successful ACE candidate identification</li>
+                    </ul>
+                </div>
+
+                <div class="insight-category">
+                    <h4>Geographic Implementation Gaps</h4>
+                    <ul>
+                        <li>Increase ACE coverage in Manhattan where speeds average only 7.1 mph - lowest of all boroughs despite high route density</li>
+                        <li>Expand enforcement in Brooklyn (8.4 mph average) and Bronx (8.8 mph average) - both below system-wide performance</li>
+                        <li>Consider reduced ACE priority for Staten Island routes averaging 13.6 mph - already achieving optimal speed performance</li>
+                    </ul>
+                </div>
+
+                <div class="insight-category">
+                    <h4>Evidence-Based Effectiveness Thresholds</h4>
+                    <ul>
+                        <li>Establish 7 mph as the ACE implementation threshold - routes below this speed show consistent 15-19% improvement rates</li>
+                        <li>Discontinue ACE enforcement on routes that fail to improve after 2 years - prevent resource waste on ineffective implementations</li>
+                        <li>Create fast-track ACE approval for routes serving educational institutions - CUNY routes show measurable improvement patterns</li>
+                    </ul>
+                </div>
+
+                <div class="insight-category">
+                    <h4>Resource Allocation Optimization</h4>
+                    <ul>
+                        <li>Reallocate ACE cameras from high-performing routes (>12 mph) to underperforming routes (<8 mph) for maximum system impact</li>
+                        <li>Implement performance-based ACE expansion - use ML model predictions to rank candidate routes by improvement potential</li>
+                        <li>Focus ACE investments where bias-corrected effects exceed +0.5 mph - ensures meaningful rather than statistical improvements</li>
+                    </ul>
+                </div>
+
+                <div class="insight-category">
+                    <h4>System-Wide Performance Monitoring</h4>
+                    <ul>
+                        <li>Establish baseline speed monitoring for all routes before ACE implementation - pre-treatment speed predicts 97% of post-treatment performance</li>
+                        <li>Create quarterly ACE effectiveness reviews using matched control groups - avoid misleading before/after comparisons</li>
+                        <li>Implement predictive modeling for ACE candidate selection - achieve 87.9% accuracy in identifying successful implementation targets</li>
+                        <li>Monitor ACE performance heterogeneity across route clusters - different route types require different implementation strategies</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Performance Summary -->
+            <div class="performance-summary">
+                <h3>CUNY Route Performance Summary</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h4>Coverage</h4>
+                        <div class="stat-number">17.4%</div>
+                        <p>Only 4 of 23 analyzed CUNY routes have ACE enforcement</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>ACE Routes</h4>
+                        <div class="stat-number">+9.2%</div>
+                        <p>Improved from 7.6 to 8.3 mph (+0.7 mph)</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Non-ACE Routes</h4>
+                        <div class="stat-number">+6.0%</div>
+                        <p>Improved from 8.3 to 8.8 mph (+0.5 mph)</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Net Advantage</h4>
+                        <div class="stat-number">+3.2%</div>
+                        <p>ACE provides +0.2 mph absolute difference</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <p>
+                        We are dedicated to using data science and machine learning to improve public transportation 
+                        through evidence-based policy analysis. Our work focuses on identifying opportunities for 
+                        meaningful improvements in MTA service delivery, particularly for educational institutions 
+                        and underserved communities.
+                    </p>
+                </div>
+                
+                <div class="methodology">
+                    <h3>Our Methodology</h3>
+                    <p>
+                        We employ rigorous statistical analysis, machine learning models, and bias-corrected evaluation 
+                        methods to ensure our recommendations are based on solid evidence rather than correlation. 
+                        Our approach combines predictive modeling with real-world performance data to create actionable 
+                        insights for transportation policy makers.
+                    </p>
+                </div>
+
+                <div class="impact">
+                    <h3>Our Impact</h3>
+                    <p>
+                        Through our analysis, we've identified significant untapped potential for ACE enforcement 
+                        expansion, particularly on CUNY routes serving critical educational infrastructure. Our 
+                        machine learning models achieve 87.9% accuracy in predicting successful ACE implementation 
+                        candidates, providing a clear roadmap for continued system improvement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 MTA Data Analysis. Evidence-based transportation policy through data science.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
