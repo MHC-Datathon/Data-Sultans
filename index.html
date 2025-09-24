@@ -32,18 +32,41 @@
         <div class="hero-content">
             <h1>Evidence-Based Transportation Policy</h1>
             <p class="hero-subtitle">Analyzing MTA performance through data-driven insights and machine learning</p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <h3>87.9%</h3>
-                    <p>ML Model Accuracy</p>
+            
+        </div>
+    </section>
+
+    <!-- ACE vs Non-ACE Animation Section -->
+    <section class="animation-section">
+        <div class="container">
+
+            <div class="anim-track">
+                <div class="label">ACE</div>
+                <div class="track blue" aria-label="ACE service track with stops">
+                    <div class="stops">
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                    </div>
+                    <div class="indicator ace" aria-hidden="true"></div>
                 </div>
-                <div class="stat">
-                    <h3>17.4%</h3>
-                    <p>CUNY Route Coverage</p>
-                </div>
-                <div class="stat">
-                    <h3>+9.2%</h3>
-                    <p>ACE Route Improvement</p>
+            </div>
+
+            <div class="anim-track">
+                <div class="label">Non-ACE</div>
+                <div class="track gray" aria-label="Non-ACE service track with stops">
+                    <div class="stops">
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                        <span class="stop"></span>
+                    </div>
+                    <div class="indicator nonace" aria-hidden="true"></div>
                 </div>
             </div>
         </div>
@@ -185,6 +208,116 @@
                 </div>
             </div>
 
+            <!-- Map Carousel (moved below graphs) -->
+            <div class="map-carousel">
+                <div class="carousel-header">
+                    <h3>ACE Enforcement Maps by Borough</h3>
+                    <p class="carousel-subtitle">Use arrows or keyboard ← → to navigate</p>
+                </div>
+                <div class="carousel-viewport">
+                    <button class="carousel-btn prev" aria-label="Previous slide">&#10094;</button>
+                    <div class="carousel-track">
+                        <!-- Brooklyn slide -->
+                        <div class="carousel-slide" data-caption="Brooklyn: ACE routes, speed scale, and school ACE routes">
+                            <div class="slide-grid">
+                                <div class="panel panel-main" data-label="Brooklyn ACE routes">
+                                    <img src="images/bklnacemap.png" alt="Brooklyn ACE Map">
+                                    <div class="overlay"><span>Brooklyn ACE routes</span></div>
+                                </div>
+                                <div class="panel-column">
+                                    <div class="panel panel-top" data-label="Brooklyn speed scale">
+                                        <img src="images/bklnscale.png" alt="Brooklyn Speed Scale">
+                                        <div class="overlay"><span>Brooklyn speed scale</span></div>
+                                    </div>
+                                    <div class="panel panel-bottom" data-label="Brooklyn ACE routes near colleges">
+                                        <img src="images/bklnschoolacemap.png" alt="Brooklyn ACE School Map">
+                                        <div class="overlay"><span>Brooklyn ACE routes near colleges</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Bronx slide -->
+                        <div class="carousel-slide" data-caption="Bronx: ACE routes, speed scale, and school ACE routes">
+                            <div class="slide-grid">
+                                <div class="panel panel-main" data-label="Bronx ACE routes">
+                                    <img src="images/bxacemap.png" alt="Bronx ACE Map">
+                                    <div class="overlay"><span>Bronx ACE routes</span></div>
+                                </div>
+                                <div class="panel-column">
+                                    <div class="panel panel-top" data-label="Bronx speed scale">
+                                        <img src="images/bxscale.png" alt="Bronx Speed Scale">
+                                        <div class="overlay"><span>Bronx speed scale</span></div>
+                                    </div>
+                                    <div class="panel panel-bottom" data-label="Bronx ACE routes near colleges">
+                                        <img src="images/bxschoolacemap.png" alt="Bronx ACE School Map">
+                                        <div class="overlay"><span>Bronx ACE routes near colleges</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Manhattan slide -->
+                        <div class="carousel-slide" data-caption="Manhattan: ACE routes, speed scale, and school ACE routes">
+                            <div class="slide-grid">
+                                <div class="panel panel-main" data-label="Manhattan ACE routes">
+                                    <img src="images/manacemap.png" alt="Manhattan ACE Map">
+                                    <div class="overlay"><span>Manhattan ACE routes</span></div>
+                                </div>
+                                <div class="panel-column">
+                                    <div class="panel panel-top" data-label="Manhattan speed scale">
+                                        <img src="images/manscale.png" alt="Manhattan Speed Scale">
+                                        <div class="overlay"><span>Manhattan speed scale</span></div>
+                                    </div>
+                                    <div class="panel panel-bottom" data-label="Manhattan ACE routes near colleges">
+                                        <img src="images/manschoolacemap.png" alt="Manhattan ACE School Map">
+                                        <div class="overlay"><span>Manhattan ACE routes near colleges</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Queens slide -->
+                        <div class="carousel-slide" data-caption="Queens: ACE routes, speed scale, and school ACE routes">
+                            <div class="slide-grid">
+                                <div class="panel panel-main" data-label="Queens ACE routes">
+                                    <img src="images/qnsacemap.png" alt="Queens ACE Map">
+                                    <div class="overlay"><span>Queens ACE routes</span></div>
+                                </div>
+                                <div class="panel-column">
+                                    <div class="panel panel-top" data-label="Queens speed scale">
+                                        <img src="images/qnsscale.png" alt="Queens Speed Scale">
+                                        <div class="overlay"><span>Queens speed scale</span></div>
+                                    </div>
+                                    <div class="panel panel-bottom" data-label="Queens ACE routes near colleges">
+                                        <img src="images/qnsschoolacemap.png" alt="Queens ACE School Map">
+                                        <div class="overlay"><span>Queens ACE routes near colleges</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Staten Island slide -->
+                        <div class="carousel-slide" data-caption="Staten Island: ACE routes and speed scale">
+                            <div class="slide-grid">
+                                <div class="panel panel-main" data-label="Staten Island ACE routes">
+                                    <img src="images/stnacemap.png" alt="Staten Island ACE Map">
+                                    <div class="overlay"><span>Staten Island ACE routes</span></div>
+                                </div>
+                                <div class="panel-column single-center">
+                                    <div class="panel panel-top" data-label="Staten Island speed scale">
+                                        <img src="images/stnscale.png" alt="Staten Island Speed Scale">
+                                        <div class="overlay"><span>Staten Island speed scale</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" aria-label="Next slide">&#10095;</button>
+                </div>
+                <div class="carousel-caption">
+                    <span class="carousel-index">1 / 5</span>
+                    <span class="carousel-text">Brooklyn: ACE routes, speed scale, and school ACE routes</span>
+                </div>
+                <div class="carousel-dots" aria-label="Carousel Pagination"></div>
+            </div>
+
             <!-- Key Insights -->
             <div class="insights-section">
                 <h3>Key Insights & Recommendations</h3>
@@ -250,21 +383,21 @@
             <!-- Performance Summary -->
             <div class="performance-summary">
                 <h3>CUNY Route Performance Summary</h3>
-                <div class="stats-grid">
+                <div class="stats-grid stats-grid-4">
                     <div class="stat-card">
-                        <h4>Coverage</h4>
+                        <h4>ML Model Accuracy</h4>
+                        <div class="stat-number">87.9%</div>
+                        <p>Predicts successful ACE targets</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>CUNY Route Coverage</h4>
                         <div class="stat-number">17.4%</div>
-                        <p>Only 4 of 23 analyzed CUNY routes have ACE enforcement</p>
+                        <p>ACE enforcement on CUNY routes</p>
                     </div>
                     <div class="stat-card">
                         <h4>ACE Routes</h4>
                         <div class="stat-number">+9.2%</div>
                         <p>Improved from 7.6 to 8.3 mph (+0.7 mph)</p>
-                    </div>
-                    <div class="stat-card">
-                        <h4>Non-ACE Routes</h4>
-                        <div class="stat-number">+6.0%</div>
-                        <p>Improved from 8.3 to 8.8 mph (+0.5 mph)</p>
                     </div>
                     <div class="stat-card">
                         <h4>Net Advantage</h4>
@@ -284,31 +417,14 @@
                 <div class="mission">
                     <h3>Our Mission</h3>
                     <p>
-                        We are dedicated to using data science and machine learning to improve public transportation 
-                        through evidence-based policy analysis. Our work focuses on identifying opportunities for 
-                        meaningful improvements in MTA service delivery, particularly for educational institutions 
-                        and underserved communities.
+                        We are dedicated to using data science and machine learning to improve public transportation, 
+                        and more specifically, the ACE program through evidence-based policy analysis. Our work 
+                        focuses on identifying opportunities for meaningful improvements in MTA service delivery, 
+                        particularly for CUNY students.
                     </p>
                 </div>
-                
-                <div class="methodology">
-                    <h3>Our Methodology</h3>
-                    <p>
-                        We employ rigorous statistical analysis, machine learning models, and bias-corrected evaluation 
-                        methods to ensure our recommendations are based on solid evidence rather than correlation. 
-                        Our approach combines predictive modeling with real-world performance data to create actionable 
-                        insights for transportation policy makers.
-                    </p>
-                </div>
-
-                <div class="impact">
-                    <h3>Our Impact</h3>
-                    <p>
-                        Through our analysis, we've identified significant untapped potential for ACE enforcement 
-                        expansion, particularly on CUNY routes serving critical educational infrastructure. Our 
-                        machine learning models achieve 87.9% accuracy in predicting successful ACE implementation 
-                        candidates, providing a clear roadmap for continued system improvement.
-                    </p>
+                <div class="about-logo">
+                    <img src="images/mtalogo.png" alt="MTA Logo">
                 </div>
             </div>
         </div>
@@ -317,7 +433,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 MTA Data Analysis. Evidence-based transportation policy through data science.</p>
+            <p>Furkan Ay, Maida Kucevic, Efe Aslanertik, Halil Akca for MTA</p>
         </div>
     </footer>
 

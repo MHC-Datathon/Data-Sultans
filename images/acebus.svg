@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    viewBox="0 0 1052.4 744.09"
+    version="1.0"
+    y="0"
+    x="0"
+  >
+  <defs
+      id="defs3"
+    >
+    <linearGradient
+        id="linearGradient2227"
+        y2="603.2"
+        gradientUnits="userSpaceOnUse"
+        y1="595.93"
+        gradientTransform="scale(.94590 1.0572)"
+        x2="717.03"
+        x1="710.5"
+      >
+      <stop
+          id="stop2166"
+          stop-color="#ffe300"
+          offset="0"
+      />
+      <stop
+          id="stop2168"
+          stop-color="#fff"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <g
+      id="layer1"
+    >
+    <path
+        id="path2140"
+        d="m80.081 355.67s-19.521 5.85-17.569 9.76c1.952 3.9 1.952 3.9 1.952 3.9s107.37 56.61 124.94 58.57c17.57 1.95 56.61 19.52 62.47 23.42 5.86 3.91 292.82 124.94 298.68 122.99 5.85-1.95 25.37 0 25.37 0s-5.85 5.85 60.52 35.14c66.37 29.28 138.6 54.66 138.6 54.66s9.76 1.95 19.52 1.95 187.41-52.71 187.41-52.71 5.86 0 7.81-7.81-29.28-19.52-29.28-19.52l-351.39-154.22-443.13-132.74-85.899 56.61z"
+        fill-opacity=".47027"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2144"
+        d="m154.26 396.66l491.94 193.26v-121.03l-499.75-158.12 7.81 85.89z"
+        fill-opacity=".71892"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2134"
+        d="m358.41 525.32a23.178 31.092 0 1 1 -46.35 0 23.178 31.092 0 1 1 46.35 0z"
+        transform="matrix(2.5598 0 .27926 2.0405 -396.71 -529.82)"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2132"
+        d="m358.41 525.32a23.178 31.092 0 1 1 -46.35 0 23.178 31.092 0 1 1 46.35 0z"
+        transform="matrix(1.9766 0 .21562 1.7266 -548.41 -509.37)"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path1358"
+        d="m39.086 336.15s-7.808-132.75-5.856-165.94c1.952-33.18 7.809-66.37 7.809-66.37s60.511-15.615 83.941-19.519 81.99-9.761 81.99-9.761l767.19 197.17s3.9-3.91 11.71 3.9 13.67 64.42 15.63 103.46c1.9 39.05 0 76.14 0 76.14l-3.91 7.81h3.91s0 35.13-1.96 60.51c-1.95 25.38-11.71 62.47-11.71 62.47s-163.98 48.8-187.41 52.71c-23.43 3.9-29.28 1.95-29.28 1.95l-144.46-56.61s0-44.9-1.95-54.66-13.67-42.95-39.05-48.81c-25.37-5.85-25.37-5.85-35.13 5.86s-7.81 62.47-7.81 62.47l-304.54-119.08s1.96-17.73 0-46.85c-1.95-15.62-19.52-35.14-31.23-39.04-11.71-3.91-21.47-3.91-27.33 5.85s-1.95 58.57-1.95 58.57-58.57-21.48-81.992-35.14c-23.425-13.67-56.612-37.09-56.612-37.09z"
+        fill-rule="evenodd"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill="#00d0fa"
+    />
+    <path
+        id="path2184"
+        d="m387.32 184.98l27.38-17.84s125.21-19.82 134.99-19.82 129.11 27.75 129.11 27.75 25.43 19.82 27.39 25.77c1.96 5.94-152.59 35.68-152.59 35.68l-166.28-51.54z"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path1360"
+        d="m386.57 185.83l27.33-17.57s124.93-19.52 134.69-19.52 128.85 27.33 128.85 27.33 25.37 19.52 27.33 25.38c1.95 5.86-152.27 35.14-152.27 35.14l-165.93-50.76z"
+        fill="#00d0fa"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path1362"
+        d="m46.895 222.92l1.952-97.6 728.14 222.54-9.76 242.06s-19.52-1.95-27.33-7.8c-7.8-5.86-13.66-119.08-25.37-126.89-11.72-7.81-667.64-232.31-667.64-232.31z"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path1364"
+        d="m267.49 301.01l5.85 140.55 50.76 19.52-3.91-142.5"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill="none"
+    />
+    <path
+        id="path1366"
+        d="m696.96 453.27l1.95 158.13 70.28 29.28v-56.61"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill="none"
+    />
+    <path
+        id="path1368"
+        d="m817.99 324.43l162.03-37.09s5.85-7.81 7.81-3.9c1.95 3.9 9.76 33.19 9.76 44.9s3.91 121.03 3.91 121.03l-9.77 7.81-158.12 40.99s0-1.95-11.72 0c-11.71 1.96-21.47 9.76-29.28 0s-1.95-39.04-1.95-39.04l1.95-117.13s0-9.76 5.86-13.66c5.85-3.91 19.52-3.91 19.52-3.91z"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path1372"
+        d="m929.79 530.46l-33.72 47.75"
+        stroke="#000"
+        stroke-width="1.7266px"
+        fill="none"
+    />
+    <path
+        id="path2136"
+        d="m336.93 527.01a9.0451 15.829 0 1 1 -18.09 0 9.0451 15.829 0 1 1 18.09 0z"
+        fill="#7fa1be"
+        transform="matrix(1.7266 0 .24666 1.7266 -481.33 -509.37)"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2138"
+        d="m336.93 527.01a9.0451 15.829 0 1 1 -18.09 0 9.0451 15.829 0 1 1 18.09 0z"
+        fill="#7fa1be"
+        transform="matrix(2.2499 0 .32142 2.0349 -318.49 -530.32)"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2146"
+        d="m832.1 533.99l27.28 60.77 99.24-31.78s-91.9 27.44-95.17 26.58-31.35-55.57-31.35-55.57z"
+        fill-opacity=".38378"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2148"
+        d="m859.84 594.75s95.1-29.84 97.39-31.75c2.28-1.9 25.95-70.69 25.95-70.69s-20.89 68.27-22.7 70.63-100.64 31.81-100.64 31.81z"
+        fill-opacity=".72973"
+        fill="#fff"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2156"
+        stroke-linejoin="round"
+        d="m678.65 634.24a3.7727 4.2166 0 1 1 -7.55 0 3.7727 4.2166 0 1 1 7.55 0z"
+        fill-rule="evenodd"
+        transform="matrix(1.7266 0 0 1.7266 -354.79 -509.37)"
+        stroke="#000"
+        stroke-linecap="round"
+        stroke-width=".6"
+        fill="url(#linearGradient2227)"
+    />
+    <use
+        id="use2160"
+        xlink:href="#path2156"
+        transform="translate(15.327 -3.9779)"
+        height="744.09448"
+        width="1052.3622"
+        y="0.00000000"
+        x="0.00000000"
+    />
+    <use
+        id="use2162"
+        xlink:href="#use2160"
+        transform="translate(15.327 -3.9525)"
+        height="744.09448"
+        width="1052.3622"
+        y="0.00000000"
+        x="0.00000000"
+    />
+    <use
+        id="use2172"
+        xlink:href="#use2160"
+        transform="matrix(.83653 0 0 .95086 285.9 -12.174)"
+        height="744.09448"
+        width="1052.3622"
+        y="0.00000000"
+        x="0.00000000"
+    />
+    <use
+        id="use2174"
+        xlink:href="#use2160"
+        transform="matrix(.67922 0 0 .95058 428.16 -15.438)"
+        height="744.09448"
+        width="1052.3622"
+        y="0.00000000"
+        x="0.00000000"
+    />
+    <use
+        id="use2176"
+        xlink:href="#use2160"
+        transform="matrix(.21528 .022786 -.10006 .94530 877.27 -33.709)"
+        height="744.09448"
+        width="1052.3622"
+        y="0.00000000"
+        x="0.00000000"
+    />
+    <path
+        id="path2180"
+        d="m414.99 171.31l-24.1 14.46 159.05 49.8s-138.17-44.98-141.38-51.41c-3.21-6.42 6.43-12.85 6.43-12.85z"
+        fill-opacity=".74595"
+        fill="#fff"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2182"
+        d="m675.25 177.74l25.7 22.49s-86.75 24.1-126.91 27.31c-40.17 3.21 98-24.1 104.42-30.52 6.43-6.43-3.21-19.28-3.21-19.28z"
+        fill-opacity=".74595"
+        fill="#fff"
+        fill-rule="evenodd"
+    />
+    <path
+        id="path2186"
+        d="m101.02 91.649l-58.699 13.811 732.07 224.46s-485.15-153.23-502.42-159.34c-226.74-72.024-170.95-78.931-170.95-78.931z"
+        fill-opacity=".23784"
+        fill="#fff"
+        fill-rule="evenodd"
+    />
+    <rect
+        id="rect2188"
+        stroke-linejoin="round"
+        stroke-opacity=".38919"
+        fill-rule="evenodd"
+        rx="15.747"
+        ry="18.544"
+        height="70.673"
+        width="25.563"
+        stroke="#fff"
+        stroke-linecap="round"
+        y="360.36"
+        x="800.48"
+        stroke-width="2.4172"
+    />
+    <rect
+        id="rect2190"
+        fill-rule="evenodd"
+        rx="15.747"
+        ry="44.622"
+        transform="matrix(.99910 -.042290 .042290 .99910 0 0)"
+        width="19.548"
+        y="340.75"
+        x="976.52"
+        height="66.162"
+    />
+    <path
+        id="path2192"
+        d="m994.64 301.9l6.86 62.6"
+        stroke-opacity=".47568"
+        stroke="#fff"
+        stroke-width="1.7266px"
+        fill="none"
+    />
+    <path
+        id="path2194"
+        d="m792.76 346.44s12.67-4.22 20.27 1.69 5.91 14.36 5.91 14.36 0.84-5.07-6.76-10.98-19.42-5.07-19.42-5.07z"
+        fill-opacity=".48108"
+        fill="#fff"
+        fill-rule="evenodd"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Bus 2</dc:title
+        >
+        <dc:date
+          >2005-10-11T20:07:45</dc:date
+        >
+        <dc:description
+          >Bus </dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/182941/bus-2-by-Jarno-182941</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >Jarno</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >bus</rdf:li
+            >
+            <rdf:li
+              >upload2openclipart</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
