@@ -302,6 +302,56 @@ body {
     margin: 3rem 0;
 }
 
+/* ACE Carousel Specific Styles */
+.ace-carousel .carousel-slide {
+    padding: 2rem;
+    background: #fafbfc;
+    height: 300px;
+}
+
+.ace-carousel .slide-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.ace-carousel .slide-content img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ace-carousel .slide-text {
+    flex: 1;
+}
+
+.ace-carousel .slide-text h4 {
+    color: #1e3c72;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.ace-carousel .slide-text p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .ace-carousel .slide-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .ace-carousel .slide-content img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
 .story-block {
     background: white;
     border-radius: 12px;

@@ -68,6 +68,73 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
+    // ACE Route Selection Carousel Logic
+    const aceCarousel = document.querySelector('.ace-carousel');
+    if (aceCarousel) {
+        const track = aceCarousel.querySelector('.carousel-track');
+        const slides = Array.from(aceCarousel.querySelectorAll('.carousel-slide'));
+        const btnPrev = aceCarousel.querySelector('.carousel-btn.prev');
+        const btnNext = aceCarousel.querySelector('.carousel-btn.next');
+        const captionIndex = aceCarousel.querySelector('.carousel-index');
+        const captionText = aceCarousel.querySelector('.carousel-text');
+        const dotsContainer = aceCarousel.querySelector('.carousel-dots');
+
+
+        let current = 0;
+
+        // Build dots
+        slides.forEach((_, idx) => {
+            const dot = document.createElement('button');
+            dot.className = 'carousel-dot';
+            dot.setAttribute('aria-label', `Go to slide ${idx + 1}`);
+            dot.addEventListener('click', () => goTo(idx));
+            dotsContainer.appendChild(dot);
+        });
+
+        function update() {
+            const offset = -current * 100;
+            track.style.transform = `translateX(${offset}%)`;
+            captionIndex.textContent = `${current + 1} / ${slides.length}`;
+            captionText.textContent = slides[current].dataset.caption || '';
+            Array.from(dotsContainer.children).forEach((d, i) => {
+                d.classList.toggle('active', i === current);
+            });
+        }
+
+        function goTo(idx) {
+            current = (idx + slides.length) % slides.length;
+            update();
+        }
+
+        btnPrev.addEventListener('click', (e) => {
+            e.preventDefault();
+            goTo(current - 1);
+        });
+        btnNext.addEventListener('click', (e) => {
+            e.preventDefault();
+            goTo(current + 1);
+        });
+
+        // Keyboard navigation
+        aceCarousel.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') goTo(current - 1);
+            if (e.key === 'ArrowRight') goTo(current + 1);
+        });
+
+        // Swipe support (basic)
+        let startX = 0;
+        track.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; });
+        track.addEventListener('touchend', (e) => {
+            const dx = e.changedTouches[0].clientX - startX;
+            if (dx > 40) goTo(current - 1);
+            if (dx < -40) goTo(current + 1);
+        });
+
+        // Initialize
+        update();
+        aceCarousel.setAttribute('tabindex', '0');
+    }
+
     // Map Carousel Logic
     const carousel = document.querySelector('.map-carousel');
     if (carousel) {

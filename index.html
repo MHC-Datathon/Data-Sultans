@@ -82,381 +82,53 @@
                 results even after controlling for selection bias, and created a replicable model for future expansion.
             </p>
 
-            <!-- Narrative Gallery -->
-            <div class="narrative-gallery">
-                <!-- Row 1 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image1.png" alt="Pre-treatment speed distribution">
-                        <figcaption>Pre-treatment speed distribution</figcaption>
-                    </figure>
-                    <p class="story-text">Pre-treatment speed is the strongest predictor of post-treatment performance (≈97%). This underpins our threshold policy: prioritize ACE on corridors under 7–8 mph where uplift potential is greatest.</p>
+            <!-- ACE Route Selection Carousel -->
+            <div class="map-carousel ace-carousel">
+                <div class="carousel-header">
+                    <h3>How Were the ACE Routes Chosen?</h3>
+                    <p class="carousel-subtitle">Data-driven selection factors from 64 implemented routes (2019-2025)</p>
                 </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image2.png" alt="Model performance summary">
-                        <figcaption>Model performance summary</figcaption>
-                    </figure>
-                    <p class="story-text">Multiple models perform reliably (R² ≥ 0.82; linear regression ≈0.85), enabling route ranking by predicted improvement. This supports a performance-based ACE expansion rather than ad hoc selection.</p>
+                <div class="carousel-viewport">
+                    <button class="carousel-btn prev" aria-label="Previous slide">&#10094;</button>
+                    <div class="carousel-track">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide" data-caption="Cost-benefit analysis of interventions">
+                            <div class="slide-content">
+                                <img src="images/image8.png" alt="Cost-benefit analysis of interventions">
+                                <div class="slide-text">
+                                    <h4>Pre-ACE Speed Dominates Selection</h4>
+                                    <p>Pre-ACE speed is the strongest predictor of route selection with an importance score of 0.5294, showing that routes with lower speeds are prioritized for enforcement. This data-driven approach targets routes where speed enforcement would be most impactful.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide" data-caption="Data preprocessing pipeline">
+                            <div class="slide-content">
+                                <img src="images/terminal1.png" alt="Data preprocessing pipeline">
+                                <div class="slide-text">
+                                    <h4>Secondary Selection Factors</h4>
+                                    <p>Express service availability (0.1996) and route length (0.1315) are secondary factors in ACE selection. Geographic location has minimal influence, demonstrating that ACE deployment follows evidence-based criteria rather than political or demographic considerations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide" data-caption="Model comparison results">
+                            <div class="slide-content">
+                                <img src="images/terminal14.png" alt="Model comparison results">
+                                <div class="slide-text">
+                                    <h4>Evidence-Based Deployment Strategy</h4>
+                                    <p>The analysis demonstrates that ACE deployment follows a systematic, data-driven approach targeting routes where speed enforcement would be most impactful. This validates the MTA's evidence-based policy implementation strategy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" aria-label="Next slide">&#10095;</button>
                 </div>
-
-                <!-- Row 2 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image3.png" alt="Route clustering analysis">
-                        <figcaption>Route clustering analysis</figcaption>
-                    </figure>
-                    <p class="story-text">Clustering reveals 18.8% improvement potential for the slowest routes. This validates our focus on sub-8 mph corridors where ACE deployment shows consistent 15-19% gains.</p>
+                <div class="carousel-caption">
+                    <span class="carousel-index">1 / 3</span>
+                    <span class="carousel-text">Cost-benefit analysis of interventions</span>
                 </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image4.png" alt="Time series performance trends">
-                        <figcaption>Time series performance trends</figcaption>
-                    </figure>
-                    <p class="story-text">Long-term trends show sustained improvements post-ACE implementation. Establish baseline monitoring before deployment to track meaningful changes over time.</p>
-                </div>
-
-                <!-- Row 3 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image5.png" alt="Route complexity and express designation features">
-                        <figcaption>Route complexity and express designation features</figcaption>
-                    </figure>
-                    <p class="story-text">Feature importance highlights express designation (~20%) and route complexity (~13%) as key signals for successful ACE candidates—favor longer, more complex routes when ranks are tied.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image6.png" alt="Geographic performance variations">
-                        <figcaption>Geographic performance variations</figcaption>
-                    </figure>
-                    <p class="story-text">Manhattan shows lowest average speeds (7.1 mph) despite high density, making it priority for ACE expansion. Brooklyn and Bronx also below system average, while Staten Island already optimal.</p>
-                </div>
-
-                <!-- Row 4 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image7.png" alt="Predicted uplift ranking of candidate routes">
-                        <figcaption>Predicted uplift ranking of candidate routes</figcaption>
-                    </figure>
-                    <p class="story-text">Use predicted, bias-corrected uplift to allocate cameras: prioritize corridors with ≥ +0.5 mph expected gains; reallocate from >12 mph corridors that show diminishing or negative returns.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image8.png" alt="Cost-benefit analysis of interventions">
-                        <figcaption>Cost-benefit analysis of interventions</figcaption>
-                    </figure>
-                    <p class="story-text">ROI analysis supports targeted ACE deployment on struggling routes rather than blanket implementation. Focus resources where impact potential exceeds implementation costs.</p>
-                </div>
-
-                <!-- Row 5 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image9.png" alt="Statistical significance testing">
-                        <figcaption>Statistical significance testing</figcaption>
-                    </figure>
-                    <p class="story-text">Rigorous statistical testing confirms ACE effects are significant beyond random variation. This validates the evidence-based approach and supports continued expansion.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image10.png" alt="CUNY coverage and performance summary">
-                        <figcaption>CUNY coverage and performance summary</figcaption>
-                    </figure>
-                    <p class="story-text">Only 4 of 23 CUNY routes (16.7%) currently have ACE. ACE routes improved +0.7 mph (+10.1%) versus +0.5 mph (+6.0%) for non-ACE—a net +0.2 mph advantage, indicating room to expand on student corridors.</p>
-                </div>
-
-                <!-- Row 6 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image11.png" alt="Implementation roadmap">
-                        <figcaption>Implementation roadmap</figcaption>
-                    </figure>
-                    <p class="story-text">Phased rollout strategy prioritizes high-impact, low-risk deployments first. Establish monitoring protocols and success metrics before scaling to additional routes.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image12.png" alt="Performance monitoring dashboard">
-                        <figcaption>Performance monitoring dashboard</figcaption>
-                    </figure>
-                    <p class="story-text">Real-time monitoring enables quick identification of underperforming deployments. Quarterly reviews with matched controls ensure sustained effectiveness and prevent resource waste.</p>
-                </div>
-
-                <!-- Row 7 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image13.png" alt="Route selection criteria">
-                        <figcaption>Route selection criteria</figcaption>
-                    </figure>
-                    <p class="story-text">Multi-criteria scoring combines speed, complexity, and express designation to rank candidates. This systematic approach reduces bias and improves selection accuracy.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image14.png" alt="Bias correction methodology">
-                        <figcaption>Bias correction methodology</figcaption>
-                    </figure>
-                    <p class="story-text">Advanced bias correction techniques isolate true treatment effects from selection bias. This ensures recommendations reflect genuine ACE impact rather than pre-existing route characteristics.</p>
-                </div>
-
-                <!-- Row 8 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image15.png" alt="Cross-validation results">
-                        <figcaption>Cross-validation results</figcaption>
-                    </figure>
-                    <p class="story-text">Robust cross-validation confirms model generalizability across different route types and time periods. This validates the predictive framework for future deployments.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/image16.png" alt="Resource allocation optimization">
-                        <figcaption>Resource allocation optimization</figcaption>
-                    </figure>
-                    <p class="story-text">Optimization algorithms identify the most efficient camera placement strategy. Reallocate resources from high-performing routes to maximize system-wide impact.</p>
-                </div>
-
-                <!-- Terminal Outputs Row 9 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal1.png" alt="Data preprocessing pipeline">
-                        <figcaption>Data preprocessing pipeline</figcaption>
-                    </figure>
-                    <p class="story-text">Comprehensive data cleaning and feature engineering ensure high-quality inputs for modeling. This foundation is critical for reliable predictions and actionable insights.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal2.png" alt="Model training initialization">
-                        <figcaption>Model training initialization</figcaption>
-                    </figure>
-                    <p class="story-text">Systematic model training with proper hyperparameter tuning ensures optimal performance. Multiple algorithms tested to identify the most robust approach for route selection.</p>
-                </div>
-
-                <!-- Row 10 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal3.png" alt="Feature selection process">
-                        <figcaption>Feature selection process</figcaption>
-                    </figure>
-                    <p class="story-text">Automated feature selection identifies the most predictive variables for ACE success. This reduces noise and improves model interpretability and performance.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal4.png" alt="Cross-validation setup">
-                        <figcaption>Cross-validation setup</figcaption>
-                    </figure>
-                    <p class="story-text">Stratified cross-validation ensures representative sampling across route types and performance levels. This prevents overfitting and validates model generalizability.</p>
-                </div>
-
-                <!-- Row 11 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal5.png" alt="Model performance metrics">
-                        <figcaption>Model performance metrics</figcaption>
-                    </figure>
-                    <p class="story-text">Comprehensive evaluation metrics confirm strong predictive performance across all models. R² scores above 0.82 indicate reliable route ranking capabilities.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal6.png" alt="Bias correction implementation">
-                        <figcaption>Bias correction implementation</figcaption>
-                    </figure>
-                    <p class="story-text">Advanced bias correction techniques isolate true treatment effects from selection bias. This ensures recommendations reflect genuine ACE impact rather than pre-existing characteristics.</p>
-                </div>
-
-                <!-- Row 12 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal7.png" alt="Matched control group analysis">
-                        <figcaption>Matched control group analysis</figcaption>
-                    </figure>
-                    <p class="story-text">Matched control methodology validates ACE effectiveness by comparing similar routes with and without enforcement. This rigorous approach confirms causal impact beyond correlation.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal8.png" alt="Statistical significance testing">
-                        <figcaption>Statistical significance testing</figcaption>
-                    </figure>
-                    <p class="story-text">Rigorous statistical testing confirms ACE effects are significant beyond random variation. P-values and confidence intervals validate the evidence-based approach.</p>
-                </div>
-
-                <!-- Row 13 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal9.png" alt="Route ranking algorithm">
-                        <figcaption>Route ranking algorithm</figcaption>
-                    </figure>
-                    <p class="story-text">Automated ranking algorithm combines multiple factors to prioritize ACE candidates. This systematic approach reduces human bias and improves selection accuracy.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal10.png" alt="Performance monitoring setup">
-                        <figcaption>Performance monitoring setup</figcaption>
-                    </figure>
-                    <p class="story-text">Real-time monitoring infrastructure tracks ACE performance across all deployed routes. Automated alerts enable quick identification of issues and optimization opportunities.</p>
-                </div>
-
-                <!-- Row 14 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal11.png" alt="Validation results summary">
-                        <figcaption>Validation results summary</figcaption>
-                    </figure>
-                    <p class="story-text">Comprehensive validation confirms model reliability across different scenarios. Out-of-sample testing validates predictions for future route selections.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal12.png" alt="Training logs and validation metrics">
-                        <figcaption>Training logs and validation metrics</figcaption>
-                    </figure>
-                    <p class="story-text">Cross-validation confirms generalization, and RMSE-based checks align with out-of-sample R². These diagnostics reduce the risk of overfitting and reinforce confidence in deployment recommendations.</p>
-                </div>
-
-                <!-- Row 15 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal13.png" alt="Feature importance analysis">
-                        <figcaption>Feature importance analysis</figcaption>
-                    </figure>
-                    <p class="story-text">Feature importance analysis reveals key predictors of ACE success. Express designation and route complexity emerge as critical factors in candidate selection.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal14.png" alt="Model comparison results">
-                        <figcaption>Model comparison results</figcaption>
-                    </figure>
-                    <p class="story-text">Side-by-side model comparison identifies the most robust approach for different scenarios. Ensemble methods show superior performance for complex route selection decisions.</p>
-                </div>
-
-                <!-- Row 16 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal15.png" alt="Deployment readiness check">
-                        <figcaption>Deployment readiness check</figcaption>
-                    </figure>
-                    <p class="story-text">Pre-deployment validation ensures all systems are ready for ACE implementation. Comprehensive checks verify data quality, model performance, and monitoring infrastructure.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal16.png" alt="Performance baseline establishment">
-                        <figcaption>Performance baseline establishment</figcaption>
-                    </figure>
-                    <p class="story-text">Baseline performance measurement before ACE deployment enables accurate impact assessment. This critical step ensures reliable before/after comparisons.</p>
-                </div>
-
-                <!-- Row 17 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal17.png" alt="Impact measurement protocol">
-                        <figcaption>Impact measurement protocol</figcaption>
-                    </figure>
-                    <p class="story-text">Standardized impact measurement ensures consistent evaluation across all ACE deployments. This protocol enables reliable comparison and optimization of enforcement strategies.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal18.png" alt="Quality assurance validation">
-                        <figcaption>Quality assurance validation</figcaption>
-                    </figure>
-                    <p class="story-text">Comprehensive quality assurance validates all analysis components before final recommendations. This multi-step verification ensures accuracy and reliability of insights.</p>
-                </div>
-
-                <!-- Row 18 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal19.png" alt="Final recommendations generation">
-                        <figcaption>Final recommendations generation</figcaption>
-                    </figure>
-                    <p class="story-text">Automated recommendation engine synthesizes all analysis results into actionable insights. This systematic approach ensures consistent, evidence-based decision support.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal20.png" alt="Bias correction and matched controls">
-                        <figcaption>Bias correction and matched controls</figcaption>
-                    </figure>
-                    <p class="story-text">Matched control evaluation shows ACE effects persist after controlling for selection. Institutionalize quarterly reviews with controls to avoid misleading before/after narratives.</p>
-                </div>
-
-                <!-- Row 19 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal21.png" alt="System optimization results">
-                        <figcaption>System optimization results</figcaption>
-                    </figure>
-                    <p class="story-text">System-wide optimization identifies the most efficient resource allocation strategy. This analysis supports strategic decision-making for maximum impact.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal22.png" alt="Long-term impact assessment">
-                        <figcaption>Long-term impact assessment</figcaption>
-                    </figure>
-                    <p class="story-text">Longitudinal analysis reveals sustained ACE benefits over time. This validates the program's effectiveness and supports continued expansion.</p>
-                </div>
-
-                <!-- Row 20 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal23.png" alt="Cost-effectiveness analysis">
-                        <figcaption>Cost-effectiveness analysis</figcaption>
-                    </figure>
-                    <p class="story-text">ROI analysis demonstrates strong cost-effectiveness of ACE program. Investment in enforcement technology delivers measurable improvements in route performance.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal24.png" alt="Implementation success metrics">
-                        <figcaption>Implementation success metrics</figcaption>
-                    </figure>
-                    <p class="story-text">Success metrics confirm ACE program meets all performance targets. This validates the evidence-based approach and supports scaling to additional routes.</p>
-                </div>
-
-                <!-- Row 21 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal25.png" alt="Future expansion planning">
-                        <figcaption>Future expansion planning</figcaption>
-                    </figure>
-                    <p class="story-text">Strategic expansion planning identifies next-phase deployment opportunities. Data-driven prioritization ensures maximum impact from limited resources.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal26.png" alt="Continuous improvement framework">
-                        <figcaption>Continuous improvement framework</figcaption>
-                    </figure>
-                    <p class="story-text">Ongoing monitoring and optimization framework ensures sustained program effectiveness. Regular reviews and updates maintain high performance standards.</p>
-                </div>
-
-                <!-- Row 22 -->
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal27.png" alt="Stakeholder reporting dashboard">
-                        <figcaption>Stakeholder reporting dashboard</figcaption>
-                    </figure>
-                    <p class="story-text">Comprehensive reporting dashboard provides transparency and accountability. Real-time metrics enable stakeholders to track progress and impact.</p>
-                </div>
-
-                <div class="story-block">
-                    <figure>
-                        <img src="images/terminal28.png" alt="Final system validation">
-                        <figcaption>Final system validation</figcaption>
-                    </figure>
-                    <p class="story-text">End-to-end system validation confirms all components work together seamlessly. This final check ensures reliable operation before full deployment.</p>
-                </div>
+                <div class="carousel-dots" aria-label="Carousel Pagination"></div>
             </div>
 
             <!-- Map Carousel (moved below graphs) -->
@@ -569,9 +241,7 @@
                 <div class="carousel-dots" aria-label="Carousel Pagination"></div>
             </div>
 
-            <!-- Key Insights removed; integrated into narrative gallery -->
-
-            <!-- Performance Summary -->
+            <!-- CUNY Route Performance Summary -->
             <div class="performance-summary">
                 <h3>CUNY Route Performance Summary</h3>
                 <div class="stats-grid stats-grid-4">
