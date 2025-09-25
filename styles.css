@@ -324,6 +324,28 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* Specific image sizing for "How Do ACE Routes Impact..." carousel */
+.ace-carousel .slide-content img[src*="image6.png"],
+.ace-carousel .slide-content img[src*="image7.png"] {
+    max-width: 30%;
+}
+
+/* Specific image sizing for "What Else is Slowing Down..." carousel - second image smaller */
+.ace-carousel .slide-content img[src*="terminal24.png"] {
+    max-width: 20%;
+}
+
+/* Specific image sizing for "Machine Learning Validity" carousel - first and second images smaller */
+.ace-carousel .slide-content img[src*="image1.png"],
+.ace-carousel .slide-content img[src*="image2.png"] {
+    max-width: 30%;
+}
+
+/* Specific image sizing for "Solution" carousel - first image smaller */
+.ace-carousel .slide-content img[src*="terminal27.png"] {
+    max-width: 30%;
+}
+
 .ace-carousel .slide-text {
     flex: 1;
 }
@@ -554,6 +576,49 @@ body {
 .about-section {
     padding: 80px 0;
     background: #f8f9fa;
+}
+
+/* Video Section */
+.video-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.video-section h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: #1e3c72;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 3rem;
+    border: 2px solid #e9ecef;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.video-placeholder {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 2px dashed #dee2e6;
+}
+
+.video-placeholder p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.video-note {
+    font-size: 1rem;
+    color: #999;
+    font-style: italic;
 }
 
 .about-section h2 {
